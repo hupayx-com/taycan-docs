@@ -1,0 +1,19 @@
+{
+  "name": "taycan-docs",
+  "version": "0.0.1",
+  "description": "taycan mainnet ",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "/taycan-docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
