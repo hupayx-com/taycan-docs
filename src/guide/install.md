@@ -4,14 +4,14 @@ Taycan mainnet forked from evmos so it has same way to installation with evmos.
 For prerequisites and detailed build instructions please read the [EVMOS Docs](https://docs.evmos.org/) instructions. 
 
 ## start
-- binary : https://github.com/hupayx-com/evmos/releases/download/v6.0.1-hupayx/evmosd
-- checksum : https://github.com/hupayx-com/evmos/releases/download/v6.0.1-hupayx/checksum
+- binary : https://github.com/hupayx-com/evmos/releases/download/v7.0.0-hupayx/evmosd
+- checksum : https://github.com/hupayx-com/evmos/releases/download/v7.0.0-hupayx/checksum.txt
 
 ## genesis.json
 - https://taycan-mainnet-snapshot.s3.ap-northeast-2.amazonaws.com/genesis.json
 
 ## snapshot
-- https://taycan-mainnet-snapshot.s3.ap-northeast-2.amazonaws.com/taycan_mainnet07-21-2022.tar.gz
+- https://taycan-mainnet-snapshot.s3.ap-northeast-2.amazonaws.com/taycan_mainnet_08-18-2022.tar.gz
 
 ---
 ## sentry_node.sh
@@ -41,16 +41,16 @@ rm $HOME/.evmosd/config/genesis.json
 wget https://taycan-mainnet-snapshot.s3.ap-northeast-2.amazonaws.com/genesis.json  -P $HOME/.evmosd/config/
 
 # get snapshot
-wget https://taycan-mainnet-snapshot.s3.ap-northeast-2.amazonaws.com/taycan_mainnet07-21-2022.tar.gz $HOME/.evmosd/
+wget https://taycan-mainnet-snapshot.s3.ap-northeast-2.amazonaws.com/taycan_mainnet_08-18-2022.tar.gz $HOME/.evmosd/
 
 # remove old data
 rm -rf $HOME/.evmosd/data
 
 # unpack snapshot
-tar xvfz taycan_mainnet07-21-2022.tar.gz $HOME/.evmosd/
+tar xvfz taycan_mainnet_08-18-2022.tar.gz $HOME/.evmosd/
 
 # seed change
-sed -i '212s/seeds =.*/seeds = \"f3671b8819cbc117c44c84e7200a68f603a51c3f@3.239.217.15:26656,74f39dc36c5810494fe3f6018247aeccdd144db5@13.125.228.53:26656,b884fe0cd83ac85ee275afa14d1ff26ab09e770d@18.130.167.110:26656"/' $HOME/.evmosd/config/config.toml
+sed -i '212s/seeds =.*/seeds = \"f879932bcb21a75ce979ff3da5a35ffd320ccaa0@3.239.217.15:26656,99d89e15b1716957e8e40876d9aa0490b234b11c@13.125.228.53:26656,bd2e13c0022e7808f53a74d5ff9ed858b534d48f@18.130.167.110:26656"/' $HOME/.evmosd/config/config.toml
 
 # start evmos
 evmosd start
