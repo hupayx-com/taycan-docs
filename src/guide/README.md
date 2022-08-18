@@ -1,5 +1,5 @@
 # Taycan mainnet 
-Taycan, formerly known as "Hupayx", is independent blockchain. The base coin is Shuffle(SFL) is has 1:1 value with "HPX". 
+Taycan, formerly known as "Hupayx", is an independent blockchain. The base coin is Shuffle(SFL) and it holds an equal value to that of "HPX." 
 
 Taycan is a scalable, high-throughput Proof-of-Stake blockchain that is fully compatible and
 interoperable with Ethereum. It's built using the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk/) which runs on top of [Tendermint Core](https://github.com/tendermint/tendermint) consensus engine. and is forked from [EVMOS](https://github.com/evmos/evmos/)
