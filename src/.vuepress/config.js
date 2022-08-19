@@ -52,7 +52,8 @@ module.exports = {
     // },
     nav: [
         {text: 'Guide', link: '/guide/'},
-       // {text: 'Config', link: '/config/'},
+        {text: 'whitePaper(en)', link: '/whitePaper/en/'},
+        {text: '타이칸 백서(한글)', link: '/whitePaper/kr/'},
     ],
     sidebar: {
       '/guide/': [
@@ -62,11 +63,27 @@ module.exports = {
           children: [
             '',
             'install',
-            'whitepaper_en',
-            'whitepaper_kr'
           ]
         }
       ],
+      '/whitePaper/en/': [
+        {
+          title: 'whitePaper(en)',
+          collapsable: false,
+          children: [
+            '',          
+          ]
+        }
+      ],
+      '/whitePaper/kr/': [
+        {
+          title: '타이칸 백서(한글)',
+          collapsable: false,
+          children: [
+            ''          
+          ]
+        }
+      ]      
     }
   },
 
