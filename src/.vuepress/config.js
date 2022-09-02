@@ -1,5 +1,11 @@
 const { description } = require('../../package')
 
+// const langs = [
+//   {text: 'English', link: '/'},
+//   {text: '한국어', link: '/kr/'},
+// ]
+
+
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -32,19 +38,22 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    // nav: {
+    //   default: [
+    //     {text: 'Guide', link: '/guide/'},
+    //     {text: 'Config', link: '/config/'},
+    //     {title: 'Languages', type: 'dropdown', items: langs }
+    //   ],
+    //   kr: [
+    //     { text: '가이드', link: '/guide/'},
+    //     { text: '설정', link: '/config/'},
+    //     { title: 'Languages', type: 'dropdown', items: langs }
+    //   ]
+    // },
     nav: [
-      {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      // {
-      //   text: 'VuePress',
-      //   link: 'https://v1.vuepress.vuejs.org'
-      // }
+        {text: 'Guide', link: '/guide/'},
+        {text: 'whitePaper(en)', link: '/whitePaper/en/'},
+        {text: '타이칸 백서(한글)', link: '/whitePaper/kr/'},
     ],
     sidebar: {
       '/guide/': [
@@ -57,6 +66,24 @@ module.exports = {
           ]
         }
       ],
+      '/whitePaper/en/': [
+        {
+          title: 'whitePaper(en)',
+          collapsable: false,
+          children: [
+            '',          
+          ]
+        }
+      ],
+      '/whitePaper/kr/': [
+        {
+          title: '타이칸 백서(한글)',
+          collapsable: false,
+          children: [
+            ''          
+          ]
+        }
+      ]      
     }
   },
 

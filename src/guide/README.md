@@ -45,11 +45,13 @@ Also it gives chance to users can expect inflation reward and accurate data of c
 **Note**: Requires [Go 1.18+](https://golang.org/dl/)
 
 ## Taycan Elements
-Blockchain overview [README.md](https://github.com/hupayx-com/taycan-docs/README.md)
+[Blockchain overview](https://taycan-docs.hupayx.io/guide/index.html)
 
-Install guide [Installguide.md](Installguide.md)
+[Install guide](https://taycan-docs.hupayx.io/guide/install.html)
 
-Source Code [Suffle Taycan Github](https://github.com/hupayx-com/evmos)
+Source Code [Taycan Github](https://github.com/hupayx-com/evmos)
+
+Taycan Whitepaper [English](https://taycan-docs.hupayx.io/whitePaper/en/index.html) [Korean](https://taycan-docs.hupayx.io/whitePaper/kr/index.html)
 
 
 ## ECOSYSTEM Documentation
