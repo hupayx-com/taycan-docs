@@ -35,3 +35,4 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           aws s3 cp --recursive --region ap-northeast-2 src/.vuepress/dist s3://taycan-docs.hupayx.io --acl public-read
+          aws --region ap-northeast-2 cloudfront create-invalidation --distribution-id E1H6G4RXLGN0YG --paths "/*"
