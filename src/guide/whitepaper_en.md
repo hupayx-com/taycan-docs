@@ -39,6 +39,12 @@ All system parameters (slash quantity, fee, etc.) for controlling the operation 
 By deriving Byzantine nodes (double signatures and non-signatures etc.) that deviate from authorized protocol and eliminating them from the verification cycle within a short period of time, security is ensured, making malicious acts such as clone attacks exceedingly difficult or worthless. Byzantine nodes excluded from this procedure are penalized by having their staking amounts deducted. Slashing is a part of the on-chain governance to punish negative behavior, and anyone can submit a slashing request, even if it cannot be immediately punished by the module. If the slashing governance is successful, a portion of the deducted stake from the disqualified nodes is paid to the slashing requester as a reward.
 
 ## Service Roadmap
+### Blockchain-based payment API support
+Hupayx is a project to enable cryptocurrency for payment. Cryptocurrency payment has the potential to be used as a means of global payment by significantly lowering the high fee related to the conventional central payment system, and enabling quick and direct transactions between overseas counterparts. However, there remains issues to be resolved to attain a certain level of practicality, such as processing of canceled payments, refunds, and settling disputes between the parties.
+Taycan therefore provides a new payment method similar to the conventional payment system by utilizing the refund functions of ERC-20 token and smart contract designed within boundaries of EIP-5528 standards. After verifying the purchase details in accordance with the smart contract, the buyer can pay and sign, and the seller can then withdraw the money they received from the buyer. Moreover, a 14-day lock-in period can be set for the payment confirmation, providing flexibility which enables immediate offline payments between the parties at the same time establishing security and complete trust.
+Based on Taycan, Hupayx supports such procedures as an API (Application Programming Interface). Developers or project members who develop with this API can provide a trusted service and a confirmation process of purchasing into their system, which results in various utility in both online and offline payments.
+
+
 ### Broad Community Support
 Through Taycan, Shuffle will help developers to build stable and fast services at low cost with little to no additional training and no modifications of development environment; at the same time providing a wide range of development chance to facilitate the expansion of the service area. 
 In addition, with the launch of Taycan, various Decentralized finance (DeFi) business model and marketplaces such as auctions, AMM, bond trading, and staking became possible to be implemented. Furthermore, by supporting the development environment in various fields such as decentralized subscription services, real-based NFT transactions, fractional investment, collateral/loan platforms and games, its capabilities as a platform supporting its own ecosystem have also been enhanced.
@@ -60,8 +66,8 @@ The amount of private sale, team, company are bound to asset that cannot be allo
 |Allocation|Amount|Vesting|Vesting Start|Vesting End|
 |------|---|---|---|---|
 |Private sale1|1,000,000,000|1,000,000,000|2025.01|2033.04|
-|Private sale2|1,000,000,000|1,000,000,000|2022.08|2022.07|
+|Private sale2|1,000,000,000|1,000,000,000|2022.09|2024.12|
 |Team|500,000,000|500,000,000|2023.01|2025.12|
 |Marketing|819,730,547|
-|Company|2,064,722,013|300,000,000|2022.08|2024.12|
+|Company|2,064,722,013|300,000,000|2022.09|2024.12|
 |||900,000,000|2025.01|2033.04|
