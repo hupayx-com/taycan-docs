@@ -39,7 +39,7 @@ Also it gives chance to users can expect inflation reward and accurate data of c
 |------------------------------|------------------------------------------------------|
  Taycan Testnet                | [2023](https://chainlist.org/chain/2023)        |
 |Taycan Mainnet                | [22023](https://chainlist.org/chain/22023)                |
-| Blockchain Explorer(s)       | [EVM Scan](https://taycan-evmscan.hupayx.io) / [Cosmos Scan](http://taycan-cosmoscan.hupayx.io/) |
+| Blockchain Explorer(s)       | [EVM Scan](https://taycan-evmscan.hupayx.io) / [Cosmos Scan](https://taycan-cosmoscan.hupayx.io/) |
 | Block Time                   | ~2 seconds                                           |
 
 **Note**: Requires [Go 1.18+](https://golang.org/dl/)

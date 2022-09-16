@@ -41,7 +41,7 @@ By deriving Byzantine nodes (double signatures and non-signatures etc.) that dev
 ## Service Roadmap
 ### Blockchain-based payment API support
 Hupayx is a project to enable cryptocurrency for payment. Cryptocurrency payment has the potential to be used as a means of global payment by significantly lowering the high fee related to the conventional central payment system, and enabling quick and direct transactions between overseas counterparts. However, there remains issues to be resolved to attain a certain level of practicality, such as processing of canceled payments, refunds, and settling disputes between the parties.
-Taycan therefore provides a new payment method similar to the conventional payment system by utilizing the refund functions of ERC-20 token and smart contract designed within boundaries of EIP-5528 standards. After verifying the purchase details in accordance with the smart contract, the buyer can pay and sign, and the seller can then withdraw the money they received from the buyer. Moreover, a 14-day lock-in period can be set for the payment confirmation, providing flexibility which enables immediate offline payments between the parties at the same time establishing security and complete trust.
+Taycan therefore provides a new payment method similar to the conventional payment system by utilizing the refund functions of ERC-20 token and smart contract designed within boundaries of EIP-5528 standards. After verifying the purchase details in accordance with the smart contract, the buyer can pay and sign, and the seller can then withdraw the money they received from the buyer. Moreover, a certain lock-in period can be set for the payment confirmation, providing flexibility which enables immediate offline payments between the parties at the same time establishing security and complete trust.
 Based on Taycan, Hupayx supports such procedures as an API (Application Programming Interface). Developers or project members who develop with this API can provide a trusted service and a confirmation process of purchasing into their system, which results in various utility in both online and offline payments.
 
 
@@ -60,7 +60,7 @@ The obtained SFL can be utilized and paid for at various affiliated stores via S
 
 
 ## Token Distribution
-Taycan mainnet is the inflation chain. SFL holders can delegate their coins to validators, which are utilized for transaction verification and governance voting. As a compensation for contributing to the chain, 80% of the total inflation is paid as a staking reward, and 20% is accumulated in the community pool and used through governance decisions. The initial issuance of SFL is 7,000,000,000 SFL, and when the total issuance increased by inflation reaches 10,000,000,000 SFL, the elimination of inflation is proposed to governance. The number and status of inflation are parameters that can be determined by governance.
+Taycan mainnet is the inflation chain. SFL holders can delegate their coins to validators, which are utilized for transaction verification and governance voting. As a compensation for contributing to the chain, 90% of the total inflation is paid as a staking reward, and 10% is accumulated in the community pool and used through governance decisions. The initial issuance of SFL is 7,000,000,000 SFL, and 750,000,000SFLs are issued annually by inflation. When the terminal issuance amount of 10,000,000,000 SFL is reached, the elimination of inflation is proposed to governance. The number and status of inflation are parameters that can be determined by governance.
 The amount of private sale, team, company are bound to asset that cannot be allocated by the vesting module among the initial issuance quantity. Each allocation will be initiated according to the vesting start and end dates at following table.
 
 |Allocation|Amount|Vesting|Vesting Start|Vesting End|
@@ -71,3 +71,4 @@ The amount of private sale, team, company are bound to asset that cannot be allo
 |Marketing|819,730,547|
 |Company|2,064,722,013|300,000,000|2022.09|2024.12|
 |||900,000,000|2025.01|2033.04|
+|Current Holders|1,615,547,440||||
