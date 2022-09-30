@@ -12,7 +12,8 @@ Slomist의 audit 결과 지적된 low risk 내역에 대해 아래와 같이 안
 ## RPC "Black Valentine's Day" vulnerability / [RPC]The Ethereum Black Valentine's Day Vulnerability / Low 
 타이칸은 RPC 통신으로 작동할 수 있는 EVM 호환 블록체인으로 RPC에는 지갑 기능이 있으며, 포트가 로컬이 아닌 액세스를 위해 열려 있는 경우 공격자는 RPC 포트를 통해 자금을 훔칠 수 있습니다.  
 
-![structure] (./taycan_structure.png)
+![structure](./taycan_structure.png)
+
 타이칸은 위의 그림과 같이 설계하여 RPC가 접속하는 센트리 노드에 지갑을 없애 RPC 포트를 통한 금탈취 취약점에 대해 조치합니다.
 
 ## Transaction malleability risk / [Encryption]Transaction Malleability Attack / Suggestion
