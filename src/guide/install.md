@@ -6,12 +6,22 @@ For prerequisites and detailed build instructions please read the [EVMOS Docs](h
 ## start
 - binary : https://github.com/hupayx-com/evmos/releases/download/v7.0.0-hupayx/evmosd
 - checksum : https://github.com/hupayx-com/evmos/releases/download/v7.0.0-hupayx/checksum.txt
+---
+- binary : https://github.com/hupayx-com/evmos/releases/download/v8.0.0-hupayx/evmos_8.0.0-hupayx_Linux_amd64.tar.gz
+- checksum : https://github.com/hupayx-com/evmos/releases/download/v8.0.0-hupayx/checksums.txt
+
+|version|height| git |
+|------|---|---|
+|v7.0.0|1|tag : [v7.0.0-hupayx](https://github.com/hupayx-com/evmos/releases/tag/v7.0.0-hupayx) |
+|v8.0.0|3343125| tag : [v8.0.0-hupayx](https://github.com/hupayx-com/evmos/releases/tag/v8.0.0-hupayx) |
 
 ## genesis.json
 - https://taycan-mainnet-snapshot.s3.ap-northeast-2.amazonaws.com/genesis.json
 
 ## snapshot
 - https://taycan-mainnet-snapshot.s3.ap-northeast-2.amazonaws.com/taycan_mainnet_08-18-2022.tar.gz
+- https://taycan-mainnet-snapshot.s3.ap-northeast-2.amazonaws.com/taycan_mainnet10-15-2022.tar.gz (height : 3343125)
+* every sun day create new snapshot
 
 ---
 ## sentry_node.sh
